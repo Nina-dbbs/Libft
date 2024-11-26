@@ -31,19 +31,3 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 	copy[i] = '\0';
 	return (copy);
 }
-
-/*int	main()
-{
-	char const	s[10] = "0123456789";
-	ft_strmapi(s, &ft_test);
-	for (int i = 0; i < 10; i++)
-	{
-		printf("%d\n", s[i]);
-	}
-	return (0);
-}
-char  *ft_test(unsigned int i, char s)
-{
-        s[i] = 45;
-        return (&s[i]);
-}*/

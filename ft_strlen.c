@@ -24,7 +24,7 @@ int	ft_strlen(const char	*str)
 /*#include <stdio.h>
 int	main()
 {
-	char	*str = NULL;
+	char	*str = "0123456789";
 	printf("%d\n", ft_strlen(str));
 	return (0);
 }*/

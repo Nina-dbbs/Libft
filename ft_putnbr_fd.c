@@ -34,8 +34,3 @@ void	ft_putnbr_fd(int n, int fd)
 	if (n < 10)
 		ft_putchar_fd(n + 48, fd);
 }
-
-/*int	test()
-{
-	write(fd, ft_itoa(nb), ft_len(nb));
-}*/

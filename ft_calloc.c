@@ -30,8 +30,8 @@ void	*ft_calloc(size_t nmemb, size_t size)
 /*#include <stdio.h>
 int	main()
 {
-	size_t	nmemb = -2147483648;
-	size_t	size = 1;
+	size_t	nmemb = 454;
+	size_t	size = 25;
 	printf("%p\n", ft_calloc(nmemb, size));
 	return (0);
 }*/

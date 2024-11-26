@@ -17,11 +17,9 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	size_t	i;
 	size_t	len_s;
 	char	*copy;
-	char	*s_cast;
 
 	i = 0;
 	len_s = (size_t)ft_strlen(s);
-	s_cast = (char *)s;
 	if (start >= len_s)
 		return (ft_strdup(""));
 	if (len_s - (size_t)start < len)
@@ -31,7 +29,7 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 		return (NULL);
 	while (i < len)
 	{
-		copy[i] = s_cast[start];
+		copy[i] = ((char *)s)[start];
 		i++;
 		start++;
 	}
